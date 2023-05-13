@@ -6,6 +6,10 @@ export interface Service {
   about: string;
 }
 
+export interface Title {
+  title: any;
+}
+
 export interface Skill {
   Icon: IconType;
   name: string;

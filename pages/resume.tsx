@@ -5,7 +5,7 @@ import { languages, tools } from "../data";
 const Resume = () => {
   return (
     <div className="px-6 py-2">
-      <HeadText headTitle="Resume" />
+      <HeadText title="Resume" />
       {/* //! Education & Experience */}
       <div className="grid gap-6 md:grid-cols-2">
         <div>

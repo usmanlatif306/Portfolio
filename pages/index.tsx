@@ -7,7 +7,7 @@ import { Service } from "../types";
 const About: NextPage = () => {
   return (
     <div className="flex flex-col flex-grow px-6 pt-1 ">
-      <HeadText headTitle="" />
+      <HeadText title="" />
       <h6 className="my-3 text-base font-medium">
         I am currently working as a full stack developer in{" "}
         <a href="https://xorexs.com" className="text-blue-500" target="_blank">
