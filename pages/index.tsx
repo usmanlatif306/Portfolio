@@ -7,14 +7,20 @@ import { Service } from "../types";
 const About: NextPage = () => {
   return (
     <div className="flex flex-col flex-grow px-6 pt-1 ">
-      <HeadText title="" />
+      <HeadText
+        title="Usman Latif - Full Stack Developer"
+        description="Usman Latif is a skilled full stack developer creating innovative web applications. Explore my portfolio showcasing modern web development projects and technical expertise."
+      />
       <h6 className="my-3 text-base font-medium">
-        I am currently working as a full stack developer in{" "}
-        <a href="https://xorexs.com" className="text-blue-500" target="_blank">
-          Xorexs Limited
-        </a>
-        . I have 3+ years of experience in Web Development. I am working on
-        famous frameworks like Laravel, React and Vue Js.
+        I&apos;m a passionate full stack developer with over 5 years of
+        experience, currently working at Xorexs Limited. I specialize in
+        building modern web applications using Laravel, React, Vue.js, Next.js,
+        and Inertia.js, with Tailwind CSS for responsive design. My expertise
+        spans both frontend and backend development, creating scalable
+        applications that deliver exceptional user experiences. I&apos;m also
+        expanding into Chrome extension development, crafting solutions that
+        enhance user productivity. I thrive on transforming complex ideas into
+        clean, efficient code while staying current with emerging technologies.
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "

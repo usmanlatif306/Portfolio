@@ -3,7 +3,6 @@ import {
   AiFillGithub,
   AiFillLinkedin,
   AiFillTwitterCircle,
-  AiFillYoutube,
 } from "react-icons/ai";
 import { GiTie } from "react-icons/gi";
 import { GoLocation } from "react-icons/go";
@@ -27,16 +26,16 @@ const Sidebar = () => {
         width="128"
         quality="100"
       />
-      <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
+      <h1 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
         <span className="text-green ">Usman</span> Latif
-      </h3>
+      </h1>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500">
         Full Stack Developer
       </p>
       {/* Resume */}
       <a
-        href="/assets/Usman Latif.pdf"
-        download="Usman Latif.pdf"
+        href="/assets/Usman Latif Full Stack Developer.pdf"
+        download="Usman Latif Full Stack Developer.pdf"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
       >
         <GiTie className="w-6 h-6" />
@@ -45,14 +44,17 @@ const Sidebar = () => {
 
       {/* Socials */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full ">
-        <a href="https://www.facebook.com/usmanlatif306">
-          <AiFillFacebook className="w-8 h-8 cursor-pointer" />
-        </a>
-        <a href="https://twitter.com/usmanlatif06">
-          <AiFillTwitterCircle className="w-8 h-8 cursor-pointer" />
+        <a href="https://www.linkedin.com/in/usmanlatif306">
+          <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
         <a href="https://github.com/usmanlatif306">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />{" "}
+        </a>
+        <a href="https://x.com/usmanlatif06">
+          <AiFillTwitterCircle className="w-8 h-8 cursor-pointer" />
+        </a>
+        <a href="https://www.facebook.com/usmanlatif306">
+          <AiFillFacebook className="w-8 h-8 cursor-pointer" />
         </a>
       </div>
 

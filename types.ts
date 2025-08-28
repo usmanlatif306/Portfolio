@@ -39,4 +39,6 @@ export type Category =
   | "mongo"
   | "tailwind"
   | "bootstrap"
-  | "redux";
+  | "redux"
+  | "stripe"
+  | "mysql";

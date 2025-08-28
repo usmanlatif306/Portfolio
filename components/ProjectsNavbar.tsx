@@ -26,7 +26,7 @@ const ProjectsNavbar: FunctionComponent<{
       <NavItem value="laravel" {...props} />
       <NavItem value="react" {...props} />
       <NavItem value="vue" {...props} />
-      <NavItem value="node" {...props} />
+      {/* <NavItem value="node" {...props} /> */}
     </div>
   );
 };

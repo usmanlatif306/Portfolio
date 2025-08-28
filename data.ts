@@ -28,7 +28,7 @@ export const services: Service[] = [
     Icon: FaDatabase,
     title: "Databases",
     about:
-      "working on different databases like <b>MySql</b>, <b>Firebase</b>  and <b>Mongo DB</b> ",
+      "working on different databases like <b>MySql</b>, <b>PostgreSQL</b>, <b>Firebase</b>  and <b>Mongo DB</b> ",
   },
   {
     Icon: AiOutlineAntDesign,
@@ -80,8 +80,8 @@ export const languages: Skill[] = [
 export const tools: Skill[] = [
   {
     Icon: BsCircleFill,
-    name: "Canva",
-    level: "50",
+    name: "Figma",
+    level: "80",
   },
   {
     Icon: BsCircleFill,
@@ -98,9 +98,34 @@ export const tools: Skill[] = [
     name: "Excel",
     level: "80",
   },
+  {
+    Icon: BsCircleFill,
+    name: "Canva",
+    level: "50",
+  },
 ];
 
 export const projects: IProject[] = [
+  {
+    name: "Adlee",
+    image_path: "/images/adlee.png",
+    deployed_url: "https://adlee.io/",
+    github_url: "https://github.com/usmanlatif306",
+    category: ["laravel", "Livewire"],
+    description:
+      "Adlee streamlines the sponsorship process for all stakeholders, connecting sponsors to organizations and events that need them.",
+    key_techs: ["Laravel", "MySql", "Livewire", "Stripe", "Tailwind"],
+  },
+  {
+    name: "MyMechanic",
+    image_path: "/images/mymechanic.png",
+    deployed_url: "https://mymechanic.com/",
+    github_url: "https://github.com/usmanlatif306",
+    category: ["react"],
+    description:
+      "Mymechanic provides helping to find out best car repair mechanic in your area. You provide your issue with your vehicle and will receive best estimate for your repairing issue.",
+    key_techs: ["React", "Nextjs", "MySql", "Stripe", "Tailwind"],
+  },
   {
     name: "Smartgenix",
     image_path: "/images/smartgenix.png",
@@ -108,8 +133,78 @@ export const projects: IProject[] = [
     github_url: "https://github.com/usmanlatif306",
     category: ["laravel", "Livewire"],
     description:
-      "Book a car service appointment with a local garage as easy as it is to get an Italian pizza.",
+      "Developed custom web portal and booking service to address the disconnect between mechanics and vehicle owners in the auto repair industry.",
     key_techs: ["Laravel", "MySql", "Livewire", "Stripe", "Bootstrap"],
+  },
+  {
+    name: "YoungCreek Recreational",
+    image_path: "/images/ycr.png",
+    deployed_url: "https://www.youngcreekrec.com/",
+    github_url: "https://github.com/usmanlatif306",
+    category: ["laravel", "Livewire"],
+    description:
+      "YCR is e-commerece application where user can buy items related commercial playground equipments for children.",
+    key_techs: ["Laravel", "MySql", "Livewire", "Stripe", "Bootstrap"],
+  },
+  {
+    name: "Rent Soft",
+    image_path: "/images/rent-soft.png",
+    deployed_url: "https://rentsofthq.com/",
+    github_url: "https://github.com/usmanlatif306",
+    category: ["laravel", "Livewire"],
+    description:
+      "RentSoftHQ is all-in-one platform for managing rental properties, creating manager to handle your all records regarding properties, create talents, book lease for tenants, system automatically generate invoices for rent for each lease on specified date.",
+    key_techs: ["Laravel", "MySql", "Livewire", "Stripe", "Bootstrap"],
+  },
+  {
+    name: "Northern Star Airlines",
+    image_path: "/images/northern.png",
+    deployed_url: "https://northernstarairlines.com/homepage",
+    github_url: "https://github.com/usmanlatif306",
+    category: ["laravel", "react"],
+    description:
+      "Northern Star Airlines is a visionary aviation enterprise focused on transforming Ethiopia’s Tigray region into a premier aviation hub for Africa and beyond.",
+    key_techs: ["Laravel", "MySql", "React", "Stripe", "Tailwind", "Inertia"],
+  },
+  {
+    name: "A1Case",
+    image_path: "/images/a1case.png",
+    deployed_url: "https://a1case.mymechanic.com/",
+    github_url: "https://github.com/usmanlatif306",
+    category: ["laravel", "react"],
+    description:
+      "A1Case is e-commerce plateform to purchase phone case for you phone model and brand. You can select your brand, model and the desired design of phone case you want.",
+    key_techs: ["Laravel", "MySql", "React", "Stripe", "Tailwind", "Inertia"],
+  },
+  {
+    name: "Typedd",
+    image_path: "/images/typedd.png",
+    deployed_url: "https://app.typedd.com",
+    github_url: "https://github.com/usmanlatif306",
+    category: ["laravel", "react"],
+    description:
+      "Typedd provides easily create your personal blog using your social media posts & unlock a new wave oftraffic for your personal brand to grow.",
+    key_techs: ["React", "Nextjs", "MySql", "Paddle", "Tailwind"],
+  },
+  {
+    name: "Share Holders",
+    image_path: "/images/shareholder.png",
+    deployed_url: "https://shareholders.pro/",
+    github_url: "https://github.com/usmanlatif306",
+    category: ["laravel", "livewire"],
+    description:
+      "ShareHolders developed a platform for the Real Estate marketplace that allows buyers and sellers to easily execute a transaction on their own.",
+    key_techs: ["Laravel", "MySql", "Livewire", "Stripe", "Bootstrap"],
+  },
+  {
+    name: "Thrifty",
+    image_path: "/images/therifty.png",
+    deployed_url: "https://www.thethriftyapp.com",
+    github_url: "https://github.com/usmanlatif306",
+    category: ["laravel"],
+    description:
+      "ShareHolders developed a platform for the Real Estate marketplace that allows buyers and sellers to easily execute a transaction on their own. ",
+    key_techs: ["Laravel", "MySql", "Stripe", "Bootstrap"],
   },
   {
     name: "Scholarly Help",
@@ -118,161 +213,86 @@ export const projects: IProject[] = [
     github_url: "https://github.com/usmanlatif306",
     category: ["laravel", "vue"],
     description:
-      "Leading Academic Writing Services, Light on your Pocket. We deliver the most trustworthy academic writing assistance for your online class!",
+      "ScholarlyHelp is an academic writing service provider that holds a vast team of professional writers, certified with advanced degrees in respective fields. ",
     key_techs: ["Laravel", "MySql", "Vue", "Stripe"],
   },
-
-  {
-    name: "Synicare",
-    description: "Medication History Easily Accessible",
-    image_path: "/images/synicare.png",
-    deployed_url: "https://synicare.com",
-    github_url: "https://github.com/usmanlatif306",
-    category: ["laravel"],
-    key_techs: ["Laravel", "Jquery", "LiveWire", "MySql", "Stripe"],
-  },
-
-  {
-    name: "Competent Writer",
-    image_path: "/images/competent.png",
-    deployed_url: "https://competentwriter.com/",
-    github_url: "https://github.com/usmanlatif306",
-    category: ["laravel", "vue"],
-    description:
-      "Competent Writer is essay and articles writing platform where student can hire any writer to write their essay",
-    key_techs: ["Laravel", "MySql", "Vue", "Stripe"],
-  },
-
-  {
-    name: "Eduintello",
-    description: "Eduintello is essay writing service",
-    image_path: "/images/edu.png",
-    deployed_url: "http://eduintello.com",
-    github_url: "https://github.com/usmanlatif306",
-    category: ["laravel"],
-    key_techs: ["Laravel", "Jquery", "MySql", "Stripe"],
-  },
-
-  {
-    name: "Phone Locally",
-    image_path: "/images/phonelocally.png",
-    deployed_url: "https://phonelocally.com/",
-    github_url: "https://github.com/usmanlatif306",
-    category: ["laravel"],
-    description:
-      "PhoneLocally makes business communication easier by providing highly customizable cloud-based contact center solutions. Our innovative tools can be tailored to meet your unique business needs.",
-    key_techs: ["Laravel", "MySql", "Jquery", "Bootstrap", "Stripe"],
-  },
-
-  {
-    name: "Fast Insurance",
-    image_path: "/images/insurance.png",
-    deployed_url: "https://fast-insurance.eu/",
-    github_url: "#",
-    category: ["laravel"],
-    description:
-      "Travel medical insurance to Europe, for residency. At Fast Insurance, we understand that life can be unpredictable. That's why we offer fast and reliable insurance solutions to help you protect what matters most. We work hard to make the insurance process as simple and stress-free as possible, so you can focus on what really matters.",
-    key_techs: ["Laravel", "MySql", "Jquery", "Bootstrap", "Stripe", "Paypal"],
-  },
-
-  {
-    name: "Placemenet",
-    image_path: "/images/placemenet.png",
-    deployed_url: "https://placemenet.com/",
-    github_url: "#",
-    category: ["laravel"],
-    description:
-      "UK and Ireland’s leading hybrid recruiter, Place Me Net combines online recruitment solutions with personalised service and expertise to deliver real results to businesses throughout the UK, Ireland and beyond!",
-    key_techs: ["Laravel", "MySql", "Jquery", "Bootstrap", "Stripe", "Paypal"],
-  },
-
   {
     name: "Easy Pupils",
     description: "Easy pupils is a school management system.",
     image_path: "/images/school.png",
-    deployed_url: "http://school.javaplums.com",
+    deployed_url: "#",
     github_url: "https://github.com/usmanlatif306",
     category: ["laravel"],
     key_techs: ["Laravel", "Jquery", "MySql"],
   },
 
-  {
-    name: "VPS2Days",
-    image_path: "/images/vps.png",
-    deployed_url: "https://vps2days.com/",
-    github_url: "https://github.com/usmanlatif306",
-    category: ["laravel"],
-    description: "VPS2Days is vps providing services on cheap rates",
-    key_techs: ["Laravel", "MySql", "Jquery", "Bootstrap", "Stripe"],
-  },
+  // {
+  //   name: "Lyriks",
+  //   image_path: "/images/musify.png",
+  //   deployed_url: "https://instagram-clone-git-main-usmanlatif306.vercel.app",
+  //   github_url: "https://github.com/usmanlatif306/music",
+  //   category: ["react", "next"],
+  //   description:
+  //     "Instagram clone is social media app based on instagram with google authentication where user can create, view and comment on any post",
+  //   key_techs: [
+  //     "React",
+  //     "Next Js",
+  //     "Tailwind",
+  //     "Firebase",
+  //     "Google Auth",
+  //     "Node",
+  //   ],
+  // },
 
-  {
-    name: "Lyriks",
-    image_path: "/images/musify.png",
-    deployed_url: "https://instagram-clone-git-main-usmanlatif306.vercel.app",
-    github_url: "https://github.com/usmanlatif306/music",
-    category: ["react", "next"],
-    description:
-      "Instagram clone is social media app based on instagram with google authentication where user can create, view and comment on any post",
-    key_techs: [
-      "React",
-      "Next Js",
-      "Tailwind",
-      "Firebase",
-      "Google Auth",
-      "Node",
-    ],
-  },
+  // {
+  //   name: "Instagram Clone",
+  //   image_path: "/images/inst.png",
+  //   deployed_url: "https://instagram-clone-git-main-usmanlatif306.vercel.app",
+  //   github_url: "https://github.com/usmanlatif306/instagram-clone",
+  //   category: ["react"],
+  //   description:
+  //     "Instagram clone is social media app based on instagram with google authentication where user can create, view and comment on any post",
+  //   key_techs: ["React", "Next Js", "Tailwind", "Firebase", "Google Auth"],
+  // },
 
-  {
-    name: "Instagram Clone",
-    image_path: "/images/inst.png",
-    deployed_url: "https://instagram-clone-git-main-usmanlatif306.vercel.app",
-    github_url: "https://github.com/usmanlatif306/instagram-clone",
-    category: ["react"],
-    description:
-      "Instagram clone is social media app based on instagram with google authentication where user can create, view and comment on any post",
-    key_techs: ["React", "Next Js", "Tailwind", "Firebase", "Google Auth"],
-  },
-
-  {
-    name: "Air Bnb",
-    image_path: "/images/air.png",
-    deployed_url: "https://airbnb-clone-usmanlatif306.vercel.app",
-    github_url: "https://github.com/usmanlatif306/airbnb-clone",
-    category: ["react"],
-    description:
-      "Hulu clone is hotel booking app  with google authentication where user can book any hotel for their trip in any where in the world",
-    key_techs: ["React", "Next Js", "Tailwind", "Next Auth"],
-  },
-  {
-    name: "Hulu Clone",
-    image_path: "/images/hulu.png",
-    deployed_url: "https://hulu-clone-usmanlatif306.vercel.app",
-    github_url: "https://github.com/usmanlatif306/hulu-clone",
-    category: ["react"],
-    description:
-      "Hulu clone is tv series searching app with google authentication where user can search any type of tv series and movies",
-    key_techs: ["React", "Next Js", "Tailwind"],
-  },
-  {
-    name: "Amazone Clone",
-    image_path: "/images/emazon.png",
-    deployed_url: "https://amazone-2-0-usmanlatif306.vercel.app/",
-    github_url: "https://github.com/usmanlatif306/amazone-2.0",
-    category: ["react"],
-    description:
-      "Amazone clone is ecommerece app where user can purchase anything online and can pay thier charges through stripe payment gateway",
-    key_techs: ["React", "Next Js", "Tailwind", "Firebase"],
-  },
-  {
-    name: "Green Escape Journey",
-    image_path: "/images/green.png",
-    deployed_url: "!#",
-    github_url: "https://github.com/usmanlatif306/green-escape-journey",
-    category: ["react", "node"],
-    description:
-      "Amazone clone is a tourist base company which offer different tour plan for people, People can choose any plan according to the number of people",
-    key_techs: ["React", "Bootstrap", "Firebase", "Node"],
-  },
+  // {
+  //   name: "Air Bnb",
+  //   image_path: "/images/air.png",
+  //   deployed_url: "https://airbnb-clone-usmanlatif306.vercel.app",
+  //   github_url: "https://github.com/usmanlatif306/airbnb-clone",
+  //   category: ["react"],
+  //   description:
+  //     "Hulu clone is hotel booking app  with google authentication where user can book any hotel for their trip in any where in the world",
+  //   key_techs: ["React", "Next Js", "Tailwind", "Next Auth"],
+  // },
+  // {
+  //   name: "Hulu Clone",
+  //   image_path: "/images/hulu.png",
+  //   deployed_url: "https://hulu-clone-usmanlatif306.vercel.app",
+  //   github_url: "https://github.com/usmanlatif306/hulu-clone",
+  //   category: ["react"],
+  //   description:
+  //     "Hulu clone is tv series searching app with google authentication where user can search any type of tv series and movies",
+  //   key_techs: ["React", "Next Js", "Tailwind"],
+  // },
+  // {
+  //   name: "Amazone Clone",
+  //   image_path: "/images/emazon.png",
+  //   deployed_url: "https://amazone-2-0-usmanlatif306.vercel.app/",
+  //   github_url: "https://github.com/usmanlatif306/amazone-2.0",
+  //   category: ["react"],
+  //   description:
+  //     "Amazone clone is ecommerece app where user can purchase anything online and can pay thier charges through stripe payment gateway",
+  //   key_techs: ["React", "Next Js", "Tailwind", "Firebase"],
+  // },
+  // {
+  //   name: "Green Escape Journey",
+  //   image_path: "/images/green.png",
+  //   deployed_url: "!#",
+  //   github_url: "https://github.com/usmanlatif306/green-escape-journey",
+  //   category: ["react", "node"],
+  //   description:
+  //     "Amazone clone is a tourist base company which offer different tour plan for people, People can choose any plan according to the number of people",
+  //   key_techs: ["React", "Bootstrap", "Firebase", "Node"],
+  // },
 ];

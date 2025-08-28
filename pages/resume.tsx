@@ -5,7 +5,10 @@ import { languages, tools } from "../data";
 const Resume = () => {
   return (
     <div className="px-6 py-2">
-      <HeadText title="Resume" />
+      <HeadText
+        title="Usman Latif Resume - Full Stack Developer Skills & Experience"
+        description="View Usman Latif's resume highlighting full stack development skills, tech stack expertise, and professional experience in web development and software engineering."
+      />
       {/* //! Education & Experience */}
       <div className="grid gap-6 md:grid-cols-2">
         <div>
@@ -25,7 +28,7 @@ const Resume = () => {
           <h5 className="my-3 text-2xl font-bold">Experience</h5>
           <div className="">
             <h5 className="my-2 text-xl font-bold">Full Stack Developer</h5>
-            <p className="font-semibold">Xorexs Limited (Nov-2020 - Present)</p>
+            <p className="font-semibold">Xorexs Limited (May 2020 - Present)</p>
             <p className="my-3">
               I am working as a full stack developer in UK based IT company
               Xorexs Limited, Lahore
