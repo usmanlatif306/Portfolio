@@ -128,7 +128,7 @@ export const projects: IProject[] = [
   },
   {
     name: "Smartgenix",
-    image_path: "/images/smartgenix.png",
+    image_path: "/images/smartgenix-v2.png",
     deployed_url: "http://smartgenix.co.uk/",
     github_url: "https://github.com/usmanlatif306",
     category: ["laravel", "Livewire"],
